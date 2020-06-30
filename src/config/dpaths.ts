@@ -182,6 +182,11 @@ const EWC_DEFAULT: DPath = {
   value: "m/44'/246'/0'/0"
 };
 
+export const VAL_MAINNET: DPath = {
+  label: 'Mainnet (VAL)',
+  value: "m/44'/538'/0'/0"
+};
+
 export const DPathsList = {
   ETH_DEFAULT,
   ETH_TREZOR,
@@ -219,7 +224,8 @@ export const DPathsList = {
   ETH_SINGULAR,
   ERE_DEFAULT,
   VOLTA_DEFAULT,
-  EWC_DEFAULT
+  EWC_DEFAULT,
+  VAL_MAINNET
 };
 
 // PATHS TO BE INCLUDED REGARDLESS OF WALLET FORMAT

@@ -37,7 +37,8 @@ type StaticNetworkIds =
   | 'ERE'
   | 'ASK'
   | 'VOLTA'
-  | 'EnergyWebChain';
+  | 'EnergyWebChain'
+  | 'Valorbit';
 
 export interface BlockExplorerConfig {
   name: string;

@@ -917,5 +917,28 @@ export const NETWORKS_CONFIG: NetworkConfig = {
       max: 10,
       initial: 0.01
     }
+  },
+  Valorbit: {
+    id: 'Valorbit',
+    name: 'Valorbit',
+    unit: 'VAL' as TSymbol,
+    chainId: 38,
+    isCustom: false,
+    color: '#005DAF',
+    blockExplorer: makeExplorer({
+      name: 'Valorbit Ledger',
+      origin: 'https://ledger.valorbit.com'
+    }),
+    tokens: [],
+    contracts: [],
+    dPaths: {
+      [WalletId.MNEMONIC_PHRASE]: DPaths.VAL_MAINNET
+    },
+    gasPriceSettings: {
+      min: 1,
+      max: 100,
+      initial: 10
+    },
+    shouldEstimateGasPrice: true
   }
 };

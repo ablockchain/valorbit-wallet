@@ -363,5 +363,14 @@ export const NODES_CONFIG: { [key in NetworkId]: StaticNodeConfig[] } = {
       service: 'energyweb.org',
       url: 'https://rpc.energyweb.org'
     }
+  ],
+
+  Valorbit: [
+    {
+      name: NetworkUtils.makeNodeName('Valorbit', 'valorbit'),
+      type: NodeType.RPC,
+      service: 'Valorbit',
+      url: 'https://rpc.valorbit.com/v2'
+    }
   ]
 };
